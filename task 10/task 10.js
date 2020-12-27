@@ -1,0 +1,12 @@
+var a;
+document.write("Value after variable declaration is: ??");
+a = 123;
+document.write("\r Initial value: " + a);
+++a;
+document.write("Value after increment is; " + a);
+a = 7 + a;
+document.write("Value after addition is: " + a);
+--a;
+document.write("Value after decrement is : " + --a);
+a = a % 3;
+document.write("The remainder is: " + a);

@@ -1,0 +1,4 @@
+1. --a:1 will subtracted from the value of a, which was initially set to 2. 2- 1 = 1. 
+2. --a - --b:1 less than value of b (which was 1 initially and now b = 0), will be subtracted from eq . 1 - 0 = 1.
+3. --a - --b + ++b: 1 more than value of b (now 2) is added to the previous equation. 1 + 2 = 3.
+4. --a - --b + ++b + b--:  and a new unit decreased value is assigned to b and added to eqn. 3 + 0 = 3.
